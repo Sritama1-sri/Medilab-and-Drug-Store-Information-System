@@ -1,0 +1,201 @@
+/* Whole page */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef8fc;
+}
+
+
+/* Header */
+
+header {
+    background-color: #147da8;
+    color: white;
+    text-align: center;
+    padding: 28px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 23px;
+}
+
+header p {
+    margin-top: 12px;
+    font-size: 13px;
+}
+
+
+/* Main container */
+
+.container {
+    margin-left: 70px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+/* Headings */
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+/* Search box */
+
+#searchInput {
+    width: 200px;
+    padding: 8px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* All buttons */
+
+button {
+    background-color: #147da8;
+    color: white;
+
+    border: none;
+
+    padding: 8px 14px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+/* Button hover */
+
+button:hover {
+    background-color: #0d6387;
+}
+
+
+/* Test result area */
+
+#testResults {
+    margin-top: 10px;
+    width: 500px;
+}
+
+
+/* Individual test card */
+
+.test-card {
+    background-color: white;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    padding: 12px;
+
+    margin-bottom: 10px;
+}
+
+
+/* Test name */
+
+.test-card h4 {
+    margin: 0 0 8px 0;
+
+    color: #147da8;
+
+    font-size: 16px;
+}
+
+
+/* Test information */
+
+.test-card p {
+    margin: 5px 0;
+
+    font-size: 14px;
+}
+
+
+/* Select Test button */
+
+.select-button {
+    margin-top: 8px;
+}
+
+
+/* Selected button */
+
+.selected {
+    background-color: green;
+}
+
+
+/* Selected Tests box */
+
+#selectedTests {
+    margin-top: 15px;
+
+    background-color: white;
+
+    border: 1px solid #ccc;
+
+    padding: 12px;
+
+    width: 470px;
+
+    border-radius: 5px;
+}
+
+
+#selectedTests b {
+    color: #147da8;
+}
+
+
+/* Booking section */
+
+.book-section {
+    margin-top: 20px;
+}
+
+
+/* Booking inputs */
+
+.book-section input {
+    width: 200px;
+
+    padding: 8px;
+
+    margin-top: 5px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+}
+
+
+/* Time dropdown */
+
+select {
+    padding: 7px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+}
+
+
+/* Book button */
+
+.book-button {
+    margin-top: 5px;
+}
